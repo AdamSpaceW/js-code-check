@@ -108,7 +108,7 @@ $.ajax({
 $.ajax("/text/to/request.txt").fail(function() {
 	alert("Request failed!");
 });
-// ALERTS "Request failed!" IF THE REQUEST SUCCEEDS
+// ALERTS "Request failed!" IF THE REQUEST FAILS
 
 $.ajax({
 	url: "/text/to/request.txt"
